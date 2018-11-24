@@ -1,4 +1,4 @@
-self.addEventListener('install', function(e) {
+   self.addEventListener('install', function(e) {
     e.waitUntil(
       caches.open('video-store').then(function(cache) {
         return cache.addAll([
@@ -6,7 +6,6 @@ self.addEventListener('install', function(e) {
           '/sw.js',
           '/icon/icon.png',
           '/css/master.css',
-          '/css/type-writer.css',
           '/js/main.js',
           '/images/image-1.jpg',
           '/images/image-2.jpg',
