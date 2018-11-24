@@ -7,9 +7,8 @@
           '/icon/icon.png',
           '/css/master.css',
           '/js/main.js',
-          '/images/image-1.jpg',
-          '/images/image-2.jpg',
-          '/images/image-3.png'
+          '/images/mws.jpeg',
+          'images/profile.jpg'
         ]);
       })
     );
