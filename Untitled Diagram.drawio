@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T08:50:38.699Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="MH-bxNviOWw-6B8j0_cI" version="15.8.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-02T08:52:17.270Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="FxoMG43svt5HDvMaIchs" version="15.8.8" type="github" pages="2">
   <diagram id="HAia7H1CVKic-tkklGxr" name="Page-1">
     <mxGraphModel dx="984" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -27,17 +27,26 @@
       <root>
         <mxCell id="0Pu2piOztXndILVamrC_-0" />
         <mxCell id="0Pu2piOztXndILVamrC_-1" parent="0Pu2piOztXndILVamrC_-0" />
+        <mxCell id="0Pu2piOztXndILVamrC_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0Pu2piOztXndILVamrC_-1" source="0Pu2piOztXndILVamrC_-2" target="0Pu2piOztXndILVamrC_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0Pu2piOztXndILVamrC_-2" value="Invoice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0Pu2piOztXndILVamrC_-1">
           <mxGeometry x="250" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0Pu2piOztXndILVamrC_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0Pu2piOztXndILVamrC_-1" source="0Pu2piOztXndILVamrC_-4" target="0Pu2piOztXndILVamrC_-6">
+        <mxCell id="0Pu2piOztXndILVamrC_-7" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0Pu2piOztXndILVamrC_-1" source="0Pu2piOztXndILVamrC_-4" target="0Pu2piOztXndILVamrC_-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Pu2piOztXndILVamrC_-4" value="if invoice null" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0Pu2piOztXndILVamrC_-1">
+        <mxCell id="0Pu2piOztXndILVamrC_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0Pu2piOztXndILVamrC_-1" source="0Pu2piOztXndILVamrC_-4" target="0Pu2piOztXndILVamrC_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Pu2piOztXndILVamrC_-4" value="Invoice&lt;br&gt;Exists" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0Pu2piOztXndILVamrC_-1">
           <mxGeometry x="270" y="160" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0Pu2piOztXndILVamrC_-6" value="InvalidAccessException" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0Pu2piOztXndILVamrC_-1">
           <mxGeometry x="420" y="170" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Pu2piOztXndILVamrC_-9" value="is trasury" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0Pu2piOztXndILVamrC_-1">
+          <mxGeometry x="270" y="320" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
